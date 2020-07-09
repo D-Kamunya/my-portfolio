@@ -62,6 +62,7 @@ ul#topbar li a {
 .banner-text {
   background: transparent;
   width: 100%;
+  text-align: center;
 }
 .myname {
   font-size: 65.7px;
@@ -76,8 +77,47 @@ ul#topbar li a {
 }
 #about {
   background: #2B2B2B;
-  padding-top: 96px;
-  padding-bottom: 66px;
+  padding-top: 50px;
+  padding-bottom: 72px;
   overflow: hidden;
   display: block;
+}
+.profile-pic{
+  height: 140px;
+  width: 140px;
+  border-radius: 75px; 
+  margin:auto;
+  background-image: url(../img/profile-pic.jpg); 
+  background-size: cover; 
+  background-position: center center; 
+  box-shadow: black 1px 1px 10px;
+}
+#about h2{
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+  text-align: center;
+}
+#education{
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  width: 96%;
+  margin: 0 auto;
+  display: block;
+}
+.name-banner{
+  padding-top: 9px;
+  width: 25%;
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+#education h1{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#education h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
 }
