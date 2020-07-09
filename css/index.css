@@ -4,6 +4,10 @@ body {
   line-height: 30px;
   color: #838C95;
   margin: 0;
+  text-align: center;
+}
+h1,h2,h3{
+  color: #313131;
 }
 ul {
   list-style: none;
@@ -18,7 +22,6 @@ li {
   width: 100%;
   background: #161415 url(../img/headerbg.jpg) no-repeat top center;
   background-size: cover ;
-  text-align: center;
   overflow: hidden;
   display: block;
   font-size: 100%;
@@ -35,7 +38,6 @@ li {
 ul#topbar{
   min-height: 48px;
   width: auto;
-  text-align: center;
 }
 
 ul#topbar li {
@@ -63,7 +65,6 @@ ul#topbar li.active a {
 .banner-text {
   background: transparent;
   width: 100%;
-  text-align: center;
 }
 .banner-text h3 {
   font-size:17px;
@@ -98,5 +99,53 @@ ul#topbar li.active a {
   font: 22px/30px 'opensans-bold', sans-serif;
   color: #000;
   margin-bottom: 12px;
-  text-align: center;
+}
+.education, .work {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+}
+
+
+.item-container .three {
+  width: 25%;
+}
+.columns {
+
+  min-height: 1px;
+  float: left;
+  width: 50%;
+ 
+}
+#about h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+#about h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+#about .item-wrap {
+  padding-right: 10%;
+}
+
+.item-container {
+  width: 70%;
+}
+.item-container .item-container {
+  width: auto;
+  max-width: none;
+  margin: 0 -20px;
+}
+.item-container  {
+  width: 100%;
+}
+#about h3{
+    font: 25px 'opensans-bold', sans-serif;
+}
+#about .info {
+  font: 16px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
 }
