@@ -76,7 +76,7 @@ ul#topbar li a {
   margin: 0 auto;
 }
 #about {
-  background: #2B2B2B;
+  background: #fff;
   padding-top: 50px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -94,7 +94,7 @@ ul#topbar li a {
 }
 #about h2{
   font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
+  color: #000;
   margin-bottom: 12px;
   text-align: center;
 }
@@ -120,4 +120,22 @@ ul#topbar li a {
 #education h1 span {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
+}
+#schools {
+  margin-top: 0;
+  float: right;
+  width: 60%;
+  position: relative;
+  text-align: center;
+}
+.school h3{
+  font: 25px 'opensans-bold', sans-serif;
+  margin-bottom: 12px;
+  color: #313131;
+}
+.info{
+  font: 16px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
 }
