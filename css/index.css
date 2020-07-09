@@ -104,18 +104,6 @@ ul#topbar li.active a {
   margin-bottom: 48px;
   padding-bottom: 24px;
 }
-
-
-.item-container .three {
-  width: 25%;
-}
-.columns {
-
-  min-height: 1px;
-  float: left;
-  width: 50%;
- 
-}
 #about h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -125,20 +113,22 @@ ul#topbar li.active a {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
 }
-#about .item-wrap {
-  padding-right: 10%;
-}
 
-.item-container {
-  width: 70%;
-}
-.item-container .item-container {
-  width: auto;
-  max-width: none;
-  margin: 0 -20px;
-}
 .item-container  {
   width: 100%;
+}
+.item-header  {
+  width: 30%;
+  float: left;
+}
+.item-wrap  {
+  width: 70%;
+  float: right;
+}
+.item-container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 #about h3{
     font: 25px 'opensans-bold', sans-serif;
