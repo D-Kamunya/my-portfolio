@@ -5,6 +5,13 @@ body {
   color: #838C95;
   margin: 0;
 }
+ul {
+  list-style: none;
+  display: block;
+}
+li {
+  line-height: 18px;
+}
 .header {
   position: relative;
   min-height: 400px;
@@ -22,7 +29,6 @@ body {
   width: 100%;
   text-transform: uppercase;
   margin: 0 auto;
-
   background: transparent;
   letter-spacing: 4.5px;
 }
@@ -31,21 +37,12 @@ ul#topbar{
   width: auto;
   text-align: center;
 }
-ul {
-  list-style: none;
-  display: block;
-}
+
 ul#topbar li {
   position: relative;
   list-style: none;
   height: 48px;
   display: inline-block;
-}
-li {
-  line-height: 18px;
-}
-ul#topbar li.active a {
-  color: #F06000;
 }
 ul#topbar li a {
   display: inline-block;
@@ -55,6 +52,10 @@ ul#topbar li a {
   text-align: left;
   color: #fff;
 }
+ul#topbar li.active a {
+  color: #F06000;
+}
+
 .banner {
   display: inline-block;
   margin-top: 70px;
@@ -64,17 +65,18 @@ ul#topbar li a {
   width: 100%;
   text-align: center;
 }
-.myname {
-  font-size: 65.7px;
-  font-family: "Nothing You Could Do", cursive;
-  color: #fff;
-}
 .banner-text h3 {
   font-size:17px;
   width: 80%;
   color: #A8A8A8;
   margin: 0 auto;
 }
+.myname {
+  font-size: 65.7px;
+  font-family: "Nothing You Could Do", cursive;
+  color: #fff;
+}
+
 #about {
   background: #fff;
   padding-top: 50px;
