@@ -7,7 +7,7 @@ body {
 }
 .header {
   position: relative;
-  min-height: 500px;
+  min-height: 400px;
   width: 100%;
   background: #161415 url(../img/headerbg.jpg) no-repeat top center;
   background-size: cover ;
@@ -54,4 +54,24 @@ ul#topbar li a {
   text-decoration: none;
   text-align: left;
   color: #fff;
+}
+.banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 70px;
 }  
+.banner-text {
+  background: transparent;
+  width: 100%;
+}
+.myname {
+  font-size: 65.7px;
+  font-family: "Nothing You Could Do", cursive;
+  color: #fff;
+}
+.banner-text h3 {
+  font-size:17px;
+  width: 80%;
+  color: #A8A8A8;
+  margin: 0 auto;
+}
