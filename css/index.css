@@ -22,7 +22,7 @@ body {
   width: 100%;
   text-transform: uppercase;
   margin: 0 auto;
-  position: fixed;
+
   background: transparent;
   letter-spacing: 4.5px;
 }
@@ -97,45 +97,4 @@ ul#topbar li a {
   color: #000;
   margin-bottom: 12px;
   text-align: center;
-}
-#education{
-  margin-bottom: 48px;
-  padding-bottom: 24px;
-  width: 96%;
-  margin: 0 auto;
-  display: block;
-}
-.name-banner{
-  padding-top: 9px;
-  width: 25%;
-  position: relative;
-  padding: 0 20px;
-  min-height: 1px;
-  float: left;
-}
-#education h1{
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-#education h1 span {
-  border-bottom: 3px solid #11ABB0;
-  padding-bottom: 6px;
-}
-#schools {
-  margin-top: 0;
-  float: right;
-  width: 60%;
-  position: relative;
-  text-align: center;
-}
-.school h3{
-  font: 25px 'opensans-bold', sans-serif;
-  margin-bottom: 12px;
-  color: #313131;
-}
-.info{
-  font: 16px 'librebaskerville-italic', serif;
-  color: #6E7881;
-  margin-bottom: 18px;
-  margin-top: 9px;
 }
