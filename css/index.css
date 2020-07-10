@@ -196,6 +196,12 @@ h3.proj1{
   min-height: 100px;
   color: #000;
 }
+h3.proj2{
+  background: url(../img/fws.png) no-repeat top center;
+  background-size: cover;
+  min-height: 100px;
+  color: #000;
+}
 
 @media screen and (max-width: 600px) {
   .item-header,.item-wrap,.projects {
