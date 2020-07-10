@@ -100,7 +100,7 @@ ul#topbar li.active a {
   background-position: center center; 
   box-shadow: black 1px 1px 10px;
 }
-#about h2{
+#about h2,#works h2{
   font: 30px "Nothing You Could Do", cursive;
   color: #000;
   margin-bottom: 12px;
@@ -190,17 +190,17 @@ hr.bouthr{
   text-align: center;
   background-color: #f1f1f1;
 }
+#works h3{
+  min-height: 100px;
+  color: #000;
+}
 h3.proj1{
   background: url(../img/dog.jpeg) no-repeat top center;
   background-size: cover;
-  min-height: 100px;
-  color: #000;
 }
 h3.proj2{
   background: url(../img/fws.png) no-repeat top center;
   background-size: cover;
-  min-height: 100px;
-  color: #000;
 }
 
 @media screen and (max-width: 600px) {
