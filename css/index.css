@@ -4,6 +4,7 @@ body {
   color: #838C95;
   margin: 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 h1,h2,h3{
@@ -169,6 +170,26 @@ hr.bouthr{
   margin: 30px;
   letter-spacing: 2px;
 }
+
+.works {margin: 0 -5px;}
+
+.projects {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.works:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.project {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
 @media screen and (max-width: 600px) {
   .item-header,.item-wrap {
     width: 100%;
