@@ -135,8 +135,8 @@ ul#topbar li.active a {
   clear: both;
 }
 #about h3{
-    font: 25px 'opensans-bold', sans-serif;
-    letter-spacing: 2px;
+  font: 25px 'opensans-bold', sans-serif;
+  letter-spacing: 2px;
 }
 #about .info {
   font: 16px 'librebaskerville-italic', serif;
