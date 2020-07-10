@@ -202,7 +202,17 @@ h3.proj2{
   background: url(../img/fws.png) no-repeat top center;
   background-size: cover;
 }
-
+#contact{
+  background: #191919;
+  color: #EBEEEE;
+  min-height: 200px;
+}
+h4.h{
+  padding-top: 30px;
+}
+#contact em{
+  color: #636363;
+}
 @media screen and (max-width: 600px) {
   .item-header,.item-wrap,.projects {
     width: 100%;
