@@ -99,7 +99,7 @@ ul#topbar li.active a {
   color: #000;
   margin-bottom: 12px;
 }
-.education, .work {
+.education, .work, .skills{
   margin-bottom: 48px;
   padding-bottom: 24px;
 }
