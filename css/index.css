@@ -1,7 +1,6 @@
 body {
   font-family:  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
-  line-height: 30px;
   color: #838C95;
   margin: 0;
   text-align: center;
@@ -33,7 +32,7 @@ li {
   text-transform: uppercase;
   margin: 0 auto;
   background: transparent;
-  letter-spacing: 4.5px;
+ 
 }
 ul#topbar{
   min-height: 48px;
@@ -132,10 +131,17 @@ ul#topbar li.active a {
 }
 #about h3{
     font: 25px 'opensans-bold', sans-serif;
+    letter-spacing: 2px;
 }
 #about .info {
   font: 16px 'librebaskerville-italic', serif;
   color: #6E7881;
   margin-bottom: 18px;
   margin-top: 9px;
+}
+hr.bouthr{
+  height: 12px;
+  border: 0;
+  width: 70%;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
