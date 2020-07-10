@@ -5,16 +5,20 @@ body {
   margin: 0;
   text-align: center;
 }
+
 h1,h2,h3{
   color: #313131;
 }
+
 ul {
   list-style: none;
   display: block;
 }
+
 li {
   line-height: 18px;
 }
+
 .header {
   position: relative;
   min-height: 400px;
@@ -25,15 +29,15 @@ li {
   display: block;
   font-size: 100%;
 }
+
 #topbar-wrap{
   font: 22px 'opensans-bold', sans-serif;
   display: block;
   width: 100%;
   text-transform: uppercase;
   margin: 0 auto;
-  background: transparent;
- 
 }
+
 ul#topbar{
   min-height: 48px;
   width: auto;
@@ -46,7 +50,6 @@ ul#topbar li {
   display: inline-block;
 }
 ul#topbar li a {
-  display: inline-block;
   padding: 8px 13px;
   line-height: 32px;
   text-decoration: none;
@@ -59,7 +62,7 @@ ul#topbar li.active a {
 
 .banner {
   display: inline-block;
-  margin-top: 70px;
+  margin-top: 50px;
 }  
 .banner-text {
   background: transparent;
@@ -99,7 +102,7 @@ ul#topbar li.active a {
   color: #000;
   margin-bottom: 12px;
 }
-.education, .work, .skills{
+.education, .work, .skills,.hobbies{
   margin-bottom: 48px;
   padding-bottom: 24px;
 }
