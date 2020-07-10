@@ -21,12 +21,12 @@ li {
 #home{
   min-height: 400px;
   background: #161415 url(../img/headerbg.jpg) no-repeat top center;
-  background-size: cover ;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .header,.why-mor {
   position: relative;
   width: 100%;
-  
   overflow: hidden;
   display: block;
   font-size: 100%;
@@ -106,8 +106,7 @@ ul#topbar li.active a {
   margin-bottom: 12px;
 }
 .education, .work, .skills,.interests{
-  margin-bottom: 48px;
-  padding-bottom: 24px;
+  margin-bottom: 40px;
 }
 #about h1 {
   text-transform: uppercase;
@@ -154,7 +153,8 @@ hr.bouthr{
 #moringa{
   min-height: 200px;
   background: #161415 url(../img/m.jpeg) no-repeat top center;
-  background-size: cover ;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #moringa h2{
  color: #000;
@@ -168,4 +168,14 @@ hr.bouthr{
 #moringa p{
   margin: 30px;
   letter-spacing: 2px;
+}
+@media screen and (max-width: 600px) {
+  .item-header,.item-wrap {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .myname {
+    font-size: 20px;
+  }  
 }
